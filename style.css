@@ -1,0 +1,186 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto Slab', serif!important;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  transition: 100ms;
+}
+
+a:hover {
+  transform: scale(1.2);
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  gap: 2em;
+}
+
+#home {
+  padding: 15rem;
+  height: 100vh;
+  background-image: url('./images/about-me-bakcground-4.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  color: white;
+}
+
+.intro {
+  align-items: center; 
+}
+
+.intro img {
+  width: 30%;
+}
+
+.about-me-header {
+  margin: 3rem;
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: #0d6efd;
+}
+
+.about-me-container {
+  margin-top: 4em;
+}
+
+#about-me-body {
+  justify-content: center;
+  margin-bottom: 2em;
+  gap: 2em;
+}
+
+.about-me-text {
+  border-right: 0.5rem solid #0d6efd;
+}
+
+.about-me-body img {
+  height: fit-content;
+}
+
+.btn {
+  background-color: #0d6efd
+}
+
+.tech-stack-and-resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tech-stack-images {
+  width: 25%;
+  gap: 5%;
+}
+
+.resume {
+  margin: 20px;
+}
+
+.row {
+  gap: 5em
+}
+
+.my-work {
+  margin-top: 2em;
+  width: inherit;
+}
+
+.project-header {
+  margin: 2rem;
+  padding: 20px;
+  text-decoration: underline;
+  text-decoration-color: #0d6efd;
+}
+
+h4 {
+  margin-top: 0.5rem !important;
+}
+
+.project-1, .project-2, .project-3, .project-4 {
+  margin: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+  border: solid;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+
+.project-1, .project-2, .project-3, .project-4 img {
+  width: 90% !important;
+}
+
+.project-description {
+  margin: 2%;
+}
+
+.project-1:hover {
+  background: #0d6efd;
+}
+
+.project-2:hover {
+  background: #0d6efd;
+}
+
+.project-3:hover {
+  background: #0d6efd;
+}
+
+.project-4:hover {
+  background: #0d6efd;
+}
+
+.project-links-container {
+  width: inherit;
+}
+
+.portfolio_item {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.contact-section {
+  background-color: lightgrey;
+  width: inherit;
+  gap: 0.5rem;
+}
+
+.contact-header {
+  margin-top: 10px;
+}
+
+.email {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.width-bandaid {
+  background-color: lightgrey;
+}
+
+.social-media-links {
+  gap: 50%;
+}
+
+.social-media-links a {
+  color: black;
+}
+
+img {
+  width: inherit;
+}
+
