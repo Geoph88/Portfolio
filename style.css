@@ -16,6 +16,10 @@ a:hover {
   transform: scale(1.2);
 }
 
+.portfolio_item:hover {
+  color: white;
+}
+
 #navbar {
   position: fixed;
   top: 0;
@@ -129,18 +133,22 @@ h4 {
 
 .project-1:hover {
   background: #0d6efd;
+  color: white;
 }
 
 .project-2:hover {
   background: #0d6efd;
+  color: white;
 }
 
 .project-3:hover {
   background: #0d6efd;
+  color: white;
 }
 
 .project-4:hover {
   background: #0d6efd;
+  color: white;
 }
 
 .project-links-container {
@@ -184,3 +192,17 @@ img {
   width: inherit;
 }
 
+@media only screen and (max-width: 600px) {
+  .about-me-text {
+    border: none;
+  }
+
+  .project-1, .project-2, .project-3, .project-4 {
+    background: #0d6efd;
+    color: white;
+  }
+
+  .portfolio_item {
+    color: white;
+  }
+}
