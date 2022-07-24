@@ -80,6 +80,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .tech-stack-images {
@@ -111,7 +112,7 @@ h4 {
   margin-top: 0.5rem !important;
 }
 
-.project-1, .project-2, .project-3, .project-4 {
+.project-1, .project-2, .project-3 {
   margin: 5em;
   display: flex;
   flex-direction: column;
@@ -120,10 +121,11 @@ h4 {
   border-radius: 25px;
   border: solid;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  width: inherit;
 }
 
 
-.project-1, .project-2, .project-3, .project-4 img {
+.project-1, .project-2, .project-3 img {
   width: 80% !important;
 }
 
@@ -146,10 +148,6 @@ h4 {
   color: white;
 }
 
-.project-4:hover {
-  background: #0d6efd;
-  color: white;
-}
 
 .project-links-container {
   width: inherit;
@@ -193,9 +191,13 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+
   #home {
     padding: 0;
-    align-items: center !important; 
+    justify-content: center !important; 
+    align-items: center !important;
+    background: none;
+    color: black;
   }
 
   .about-me-text {
